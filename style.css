@@ -1,0 +1,39 @@
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+header {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(88, 126, 88);
+    color: black;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #d3d3d3;
+    
+}
+
+footer {
+    grid-column: span 2;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(36, 33, 33);
+    color: aliceblue;
+    border-top: 2px solid #ccc;
+}
+
