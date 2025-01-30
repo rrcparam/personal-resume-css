@@ -6,6 +6,7 @@ body {
     width: 80%;
     max-width: 1200px;
     margin: auto;
+    font-family: Arial, sans-serif;
 }
 
 
@@ -37,3 +38,22 @@ footer {
     border-top: 2px solid #ccc;
 }
 
+
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
